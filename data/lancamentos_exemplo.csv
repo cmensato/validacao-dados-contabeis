@@ -1,0 +1,5 @@
+id,entry_date,account,amount,cost_center
+1,2025-01-05,Despesas Administrativas,1200,ADM
+2,2025-01-06,Receita de Vendas,,COM
+3,2025-01-06,Receita de Vendas,5000,
+4,2025-01-07,Despesas Financeiras,-300,FIN
