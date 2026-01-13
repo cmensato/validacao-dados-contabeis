@@ -1,14 +1,60 @@
 # Validação de Dados Contábeis
 
-Repositório dedicado à validação da integridade e consistência de dados contábeis, com base em regras de negócio e verificações estruturadas por meio de consultas SQL e scripts em Python.
+Este repositório apresenta um conjunto de validações aplicadas a dados contábeis, com foco na integridade, consistência e confiabilidade das informações utilizadas em processos de fechamento.
 
-O conteúdo aborda cenários comuns de inconsistência em sistemas financeiros, como campos obrigatórios não preenchidos, valores inválidos e divergências que impactam a confiabilidade das informações utilizadas nos processos de fechamento contábil.
+O objetivo do projeto é identificar inconsistências comuns em registros contábeis — como campos obrigatórios ausentes, valores incompatíveis com a natureza da conta e falhas de preenchimento — antes que esses dados impactem balancetes e relatórios gerenciais.
 
-## Estrutura do Projeto
-- data: conjuntos de dados fictícios utilizados para validação
-- regras_negocio: documentação das regras contábeis aplicadas
-- sql: consultas para verificação de consistência e integridade dos dados
-- src: scripts para execução das validações
-- testes: cenários de validação e resultados esperados
+---
 
-Os dados utilizados neste repositório são fictícios e possuem finalidade exclusivamente demonstrativa.
+## O que é validado
+
+As validações contemplam situações recorrentes em ambientes financeiros, incluindo:
+
+- Lançamentos sem valor informado  
+- Receitas com valores inconsistentes  
+- Ausência de centro de custo  
+- Regras básicas de negócio aplicadas aos lançamentos  
+
+Esses pontos são críticos para garantir a qualidade da informação e reduzir retrabalho durante o fechamento contábil.
+
+---
+
+## Como o projeto está organizado
+
+- **data/**  
+  Contém conjuntos de dados fictícios utilizados para simular cenários de inconsistência.
+
+- **regras_negocio/**  
+  Documentação das regras contábeis consideradas nas validações.
+
+- **sql/**  
+  Consultas utilizadas para verificar consistência e integridade dos dados.
+
+- **src/**  
+  Scripts em Python responsáveis pela execução das validações.
+
+- **testes/**  
+  Cenários avaliados e resultados esperados para cada validação.
+
+---
+
+## Abordagem
+
+As validações foram implementadas de forma simples e objetiva, priorizando clareza, rastreabilidade e facilidade de manutenção.  
+A lógica aplicada reflete situações reais encontradas em sistemas financeiros e ERPs, com foco na prevenção de erros antes do fechamento.
+
+---
+
+## Observações
+
+- Os dados utilizados neste repositório são fictícios  
+- O projeto tem finalidade demonstrativa  
+- As regras podem ser expandidas conforme a necessidade do processo contábil  
+
+---
+
+## Próximos passos
+
+- Inclusão de novas regras de validação  
+- Ampliação dos cenários analisados  
+- Evolução do processo conforme maior complexidade dos dados  
