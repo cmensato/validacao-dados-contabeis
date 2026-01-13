@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![SQL](https://img.shields.io/badge/SQL-Data%20Validation-lightgrey)
+![Status](https://img.shields.io/badge/Status-Stable-green)
+
 # Validação de Dados Contábeis
 
 Este repositório apresenta um conjunto de validações aplicadas a dados contábeis, com foco na integridade, consistência e confiabilidade das informações utilizadas em processos de fechamento.
