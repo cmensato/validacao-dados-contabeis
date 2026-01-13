@@ -1,17 +1,14 @@
-# Accounting Data Validation
+# Validação de Dados Contábeis
 
-Repository focused on validating accounting data integrity using business rules, SQL queries and Python scripts.
+Repositório focado na validação da integridade e consistência de dados contábeis, utilizando regras de negócio, consultas SQL e scripts em Python.
 
-The project simulates common data issues found in financial systems, such as missing values, inconsistent records and rule violations, providing a structured approach to detect and report these inconsistencies.
+O projeto simula inconsistências comuns em sistemas financeiros, como campos obrigatórios ausentes, valores inválidos e falhas de preenchimento, com o objetivo de apoiar a confiabilidade das informações utilizadas no fechamento contábil.
 
-## Project Structure
-- data: sample datasets used for validation
-- business_rules: documentation of accounting validation rules
-- sql: SQL queries for data consistency checks
-- src: Python scripts for automated validations
-- tests: validation scenarios and expected results
+## Estrutura do Projeto
+- data: dados de exemplo
+- regras_negocio: regras de validação contábil
+- sql: consultas para validação de dados
+- src: scripts para validações automatizadas
+- testes: cenários de validação
 
-## Purpose
-This project aims to demonstrate data validation logic, analytical thinking and quality-oriented practices applied to financial data contexts.
-
-All data used in this repository is fictitious and for demonstration purposes only.
+Os dados utilizados são fictícios e têm finalidade exclusivamente demonstrativa.
